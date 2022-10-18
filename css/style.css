@@ -1,0 +1,74 @@
+:root {
+    --agua-bg: rgb(26,188,156);
+}
+
+.right-nav-icon {
+    font-size: 1.5rem;
+    border: 1px solid var(--bs-gray-400);
+    color: var(--bs-gray-400);
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: rgb(44,62,80);
+    max-height: 95px;
+}
+
+.white {
+    color: white;
+}
+
+.one .img-fluid {
+    max-height: 250px;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+.star-line {
+    height: 3px;
+    border-radius: 2px;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.bg-kind-grey {
+    background-color: rgb(44,62,80);
+}
+
+.one,
+.three {
+    background-color: var(--agua-bg);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: .2rem 1rem;
+}
+
+.col-md-10 form .form-floating>.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: black;
+}
+
+form .btn-success {
+    background-color: var(--agua-bg);
+    margin: .7rem 0;
+}
+
+@media (max-width: 767px) {
+    .big-cont .container {
+        max-width: 740px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+}
